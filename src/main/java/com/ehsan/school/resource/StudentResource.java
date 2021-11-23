@@ -14,7 +14,7 @@ public class StudentResource {
 
     private List<Student> students = Arrays.asList(
             new Student(1, "Ehsan"),
-            new Student(1, "Jack")
+            new Student(2, "Jack")
     );
 
     @GetMapping
